@@ -6,7 +6,7 @@ featuredImage: null
 image: null
 tags: Github Blog Jekyll Github-Blog Jekyll-Chirpy Develop
 categories: Blog Daily
-date: '2022-01-01 00:00:00 +0900'
+date: '2022-12-31 16:40:00 +0900'
 img: ''
 ---
 <br>
@@ -51,7 +51,7 @@ img: ''
 <br>
 그리고 여기서 교훈을 얻었다.
 <br>
-첫쨰, ARM 맥에서 터미널을 실행할 때는 필수로 이 과정을 거치는 것이 좋다.
+첫째, ARM 맥에서 터미널을 실행할 때는 필수로 이 과정을 거치는 것이 좋다.
 <br><br>
 > **Finder >> 응용 프로그램 >> 터미널 우클릭 >> 정보 가져오기 >> Rosetta를 사용하여 열기**
 
