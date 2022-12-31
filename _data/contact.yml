@@ -4,8 +4,9 @@
   type: github
   icon: 'fab fa-github'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
+  type: instagram
+  icon: 'fab fa-instagram'
+  url: 'https://www.instagram.com/1intheworld_hs.ryu__'
 -
   type: email
   icon: 'fas fa-envelope'
