@@ -19,9 +19,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Dev. Paul                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Developer, Photographer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -38,7 +38,7 @@ instagram:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: IIIBreakeRIII
   email: ryu990305@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
