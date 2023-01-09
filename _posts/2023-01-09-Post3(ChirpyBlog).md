@@ -5,7 +5,7 @@ description: Github Jekyll-Chirpy Github Blog
 featuredImage: null
 image: null
 tags: Github Blog Jekyll Github-Blog Jekyll-Chirpy Develop
-categories: Blog Daily
+categories: Blog Chirpy
 date: '2023-01-09 16:00:00'
 img: ''
 ---
@@ -32,7 +32,7 @@ YAML은 XML, JSON과 같은 데이터 직렬화 양식이다.
 <br><br>
 우리가 현재 블로그 생성을 위해 사용하는 Jekyll에서도 이 YAML 방식을 이용해 데이터를 포맷을 규정한다.
 <br><br>
-> 참고로, Jekyll에서는 `.yml`로 포맷이 정해져있다.
+> 참고로, Jekyll에서는 `.yml`로 포맷이 정해져 있다.
 
 <br>
 <h3>1. _config.yml에서의 기본 설정</h3>
@@ -83,7 +83,7 @@ YAML은 XML, JSON과 같은 데이터 직렬화 양식이다.
   $ twitter:
   $   username: twitter_username
   # 본인의 SNS 아이디를 twitter_username 부분에 입력
-  # 본인이 주력으로 사용하는 SNS 아이디를 설정해주는데, Default 설정은 twitter.
+  # 본인이 주력으로 사용하는 SNS 아이디를 설정해주는데, Default 설정은 twitter
   # 다른 링크 및 아이콘을 필자와 같이 바꿀 경우, _data/contact.yml로 들어가 다음과 같이 추가
   $ type: instagram
   $ icon: 'fab fa-instagram'
@@ -118,7 +118,7 @@ YAML은 XML, JSON과 같은 데이터 직렬화 양식이다.
   ```
 
 <br>
-여기까지하면 기본적인 사이드바 커스터마이징이 끝나게 된다.
+여기까지하면 기본적인 Navigation Bar 커스터마이징이 끝나게 된다.
 <br><br>
 이외의 나머지 설정은 다음과 같다.
 
@@ -136,9 +136,9 @@ YAML은 XML, JSON과 같은 데이터 직렬화 양식이다.
 
 ```html
 $ <img src="{{ avatar_url | strip }}" alt="avatar" onerror="this.style.display='none'">
-# 다음과 같이 수정
+<!-- 다음과 같이 수정 -->
 $ <img src="사진 경로" alt="avatar" onerror="this.style.display='none'">
-# 필자는 다음과 같이 수정
+<!-- 필자는 다음과 같이 수정 -->
 $ <img src="/assets/img/profile/paul.png" alt="avatar" onerror="this.style.display='none'">
 ```
 이렇게 설정해주니 깔끔하게 해결되었다.
@@ -178,7 +178,7 @@ $ <img src="/assets/img/profile/paul.png" alt="avatar" onerror="this.style.displ
 1. `assets/img/favicons`에 들어간다.
 2. 기존에 설정되어있는 형식과 같은 형식 및 사이즈의 파일들을 확인한다.
 3. 압축을 풀어낸 파일들에 해당하는 파일들을 찾은 후, 기존 파일들과 이름을 동일하게 설정하고 덮어씌운다.
-  * **이 때, `browserconfig.png` 파일과 `site.webmanifest` 파일은 건들지 않는다!!**
+  * **이 때, `browserconfig.xml` 파일과 `site.webmanifest` 파일은 건들지 않는다!!**
 
 <br>
 위 과정을 거치고 나면 완성된 나만의 Favicon으로 탭의 아이콘이 변경된 것을 확인할 수 있다.
