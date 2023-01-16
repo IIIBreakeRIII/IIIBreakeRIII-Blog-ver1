@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 첫 블로그 (Feat. Github, Jekyll)
-description: Github Jekyll-Chirpy Github Blog≈
+description: Github Jekyll-Chirpy Github Blog
 featuredImage: null
 image: null
 tags: Github Blog Jekyll Github-Blog Jekyll-Chirpy Develop Daily
