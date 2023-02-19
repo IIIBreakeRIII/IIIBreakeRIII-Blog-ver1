@@ -5,7 +5,7 @@ description: Github Git DVCS
 featuredImage: null
 image: null
 tags: Git Github Develoop Developer Student VCS DVCS 
-categories: Github
+categories: Git Github
 date: '2023-02-08 09:00:00'
 img: ''
 ---
@@ -108,23 +108,16 @@ Git의 동작 구조에 앞서 먼저 간단한 용어들부터 알아보자
 위에 정리된 내용들을 한번에 정리하면 다음과 같다
 <hr>
 ```terminal
-$ git init
-
-# git 저장소 초기화
-
+$ git init                          # git 저장소 초기화
 $ git add .
 
 # 수정된 코드를 Staging Area로 전달
 # 뒤에 .은, 내가 수정한 모든 코드들을 한번에 지칭할 때 사용
 # 내가 원하는 코드만 올리고 싶다면 . 대신 [파일 이름] 입력
 
-$ git commit -m "Commit Message"
+$ git commit -m "Commit Message"    # Staging Area에서 Local Repository로 전달
 
-# Staging Area에서 Local Repository로 전달
-
-$ git push [branch name]
-
-# 온라인 상태에서 Github의 Remote Repository로 전달
+$ git push [branch name]            # 온라인 상태에서 Github의 Remote Repository로 전달
 ```
 <hr>
 위 과정들을 통해 최종적으로 Git은 작동하게 된다.
@@ -204,3 +197,66 @@ $ git push origin [Branch Name]
 <br><br>
 사실 Github을 이용하는 협업에 대해 알려면, 먼저 Github에서 Branch에 대한 개념부터 알아야한다.
 <br><br>
+Branch는 우리가 아는 그 나뭇가지와 같다.
+<br>
+여러 개발자들이 각자의 코드를 하나의 Repository에 각자의 Branch 이름으로 올리는 모양이 마치 나뭇가지와 같다 하여 Branch로 부른다.
+<br><br>
+그림으로 살펴보자.
+<hr>
+![Group 5](https://user-images.githubusercontent.com/89850286/219934666-673abcbf-7258-4f05-895d-d96584758d0d.png)
+<hr>
+위 그림에서 보이는 바와 같이, Main Repostiory를 AAA라고 하는 사람과 BBB라는 사람이 각각 Clone 받았다고 가정해보자.
+<br><br>
+두 사람은 각각이 본인이 작업을 진행한 후에, 본인들이 수정한 코드를 다시 Main Repository에 올릴 예정이다.
+<br><br>
+이때, 브랜치를 그냥 Main으로 올리게되면, 서로 작성한 코드가 섞이거나 때로는 오류가 있는 코드가 올라가게 되면 프로젝트를 망치는 문제가 발생하게 된다.
+<br><br>
+때문에 이를 방지하기 위해 우리는 Branch를 사용한다.
+<br>
+Main Repository의 소유자가 각각 개발자들이 올리는 코드를 확인하여 수정 사항이 있거나 혹은 오류가 있을 경우에 수정을 해서 합칠 수 있다는 장점을 가지게 된다.
+<br><br>
+먼저 BBB가 작성한 코드를 소유자가 확인한 후 Pull Request를 받아주면 코드가 합쳐진다.
+<br>
+후에 AAA가 작성한 코드를 똑같이 검토하여 코드를 합치는 것이다.
+<br><br>
+때문에 일반적으로 Branch 이름의 작명의 경우 개발자의 이름이나 본인이 작성한 코드를 기반으로 기능의 이름을 붙인다.
+<br><br>
+이 전체적인 흐름을 Git코드로 나타내면 다음과 같다.
+<hr>
+```terminal
+$ git clone [Respository Address]     # Main Repository Clone, 코드 수정 후
+
+$ git add .
+$ git commit -m "Commit Message"
+$ git checkout -b [Branch Name]       # Branch 생성 및 전환
+$ git push origin [Branch Name]       # 전환한 Branch로 깃 Push
+```
+<hr>
+그런 다음, Repository의 소유자는 Repository로 들어가 해당 Branch의 Pull Request를 받아준다.
+<br><br>
+그렇다면 Main Repository의 소유자 혹은 다른 Branch 작업자는 어떻게 받고 수정하면 될까.
+<br>
+코드는 다음과 같다.
+<hr>
+```terminal
+$ git add .
+$ git commit -m "Commit Message"      # 작업한 부분까지 Commit
+$ git pull origin main(master)        # Pull Request가 완료된 Repository Pull
+$ git push origin [Branch Name]       # 본인이 작업한 내용 업로드
+```
+<hr>
+이렇게 하면 전반적인 Git과 Github의 동작 구조 및 협업에 있어서의 기본에 대해 알게 되었다.
+
+<br>
+<h3>5. 마치며</h3>
+<hr>
+
+사실, 이 이외에도 여러가지 기능을 많이 가지고 있다.
+<br><br>
+하지만 아직 필자도 그 수준까지는 도달하지 못해 이 쯤에서 마무리하려고 한다.
+<br><br>
+약 3주만에 다시 쓰는 블로그 같은데, 앞으로 다시 열심히 써보려고 한다.
+<br><br>
+다짐과 함께.. Adios!
+<br>
+*~~다음에 뭐 쓰지~~*
