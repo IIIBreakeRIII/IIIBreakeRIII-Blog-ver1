@@ -158,7 +158,7 @@ $ git push [branch name]            # 온라인 상태에서 Github의 Remote Re
 <br>
 그 후, 오른쪽 상단의 `New` 탭을 눌러, Repository 이름을 정하고 Visibility를 `Public`으로 할 것인지, `Private`으로 할 것인지를 정한다.
 <br>
-`Public`의 경우, 다른 사람이 내 `Repository`를 볼 수 있게 되며 떄에 따라 수정을 사용자에게 요구할 수 있다.
+`Public`의 경우, 다른 사람이 내 `Repository`를 볼 수 있게 되며 때에 따라 수정을 사용자에게 요구할 수 있다.
 <br>
 반대로 `Private`은 사용자만 확인이 가능하다.
 <br>
