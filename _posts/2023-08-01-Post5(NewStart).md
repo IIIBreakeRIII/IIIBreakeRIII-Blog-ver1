@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 상반기를 마치며
+title: "[일상] 상반기를 마치며"
 description: Github Blog Daily
 featuredImage: null
 image: null

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chirpy를 이용해 깃허브 블로그 호스팅
+title: "[Jekyll] Chirpy를 이용해 깃허브 블로그 호스팅"
 description: Github Jekyll-Chirpy Github Blog
 featuredImage: null
 image: null

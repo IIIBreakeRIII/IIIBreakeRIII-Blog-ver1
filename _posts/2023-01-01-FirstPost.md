@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 첫 블로그 (Feat. Github, Jekyll)
+title: "[일상] 첫 블로그 (Feat. Github, Jekyll)"
 description: Github Jekyll-Chirpy Github Blog
 featuredImage: null
 image: null

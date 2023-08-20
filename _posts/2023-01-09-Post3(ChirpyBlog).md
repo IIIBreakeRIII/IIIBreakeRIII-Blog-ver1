@@ -1,6 +1,6 @@
 ---
 layout: post
-title: _config.yml을 부셔보자
+title: "[Jekyll] _config.yml을 부셔보자"
 description: Github Jekyll-Chirpy Github Blog
 featuredImage: null
 image: null

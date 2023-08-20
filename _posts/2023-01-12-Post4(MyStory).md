@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 내가 개발자가 된 이유
+title: "[일상] 내가 개발자가 된 이유"
 description: Github Blog Daily
 featuredImage: null
 image: null

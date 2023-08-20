@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Git & Github
+title: "[Git] About Git & Github"
 description: Github Git DVCS
 featuredImage: null
 image: null
