@@ -43,3 +43,4 @@ _"한번 써볼까?"_ 를 시전하며 NeoVim을 설치했고, 그렇게 Vim의 
 ![Neovim Config](https://github.com/IIIBreakeRIII/IIIBreakeRIII.github.io/assets/89850286/a1d8c4a2-7065-447d-945f-9ad83897df65)
 *My NeoVim Preview*
 <br>
+생각보다 예쁘고 _(내 생각인가 여튼)_ Vi에디터의 사용에만 익숙해지면 충분히 사용할만하다.
